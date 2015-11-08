@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv"
+    android:layout_marginTop="2dip"
+    android:layout_marginBottom="2dip"
+    cardUseCompatPadding="true"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/cardAvatar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardText"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@id/cardAvatar"
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/cardLikes"
+            android:layout_below="@id/cardAvatar"
+
+
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/cardUser"
+            android:layout_below="@id/cardAvatar"
+
+
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/cardUserDepartment"
+            android:layout_below="@id/cardAvatar"
+            android:layout_alignRight="@id/cardUser"
+
+
+            android:textSize="20sp"
+            android:layout_marginTop="3dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:id="@+id/separator1"
+            android:layout_below="@+id/cardLikes"
+            android:layout_marginTop="10dp"
+
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
